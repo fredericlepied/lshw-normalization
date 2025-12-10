@@ -1,0 +1,4573 @@
+{
+  "total_files": 53,
+  "issues": {
+    "type_inconsistencies": [
+      {
+        "field": "hardware.data.hardware.data.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 7515,
+        "percentage": 14179.25
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 7362,
+        "percentage": 13890.57
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 2749,
+        "percentage": 5186.79
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 1838,
+        "percentage": 3467.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 779,
+        "percentage": 1469.81
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 480,
+        "percentage": 905.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.logicalname",
+        "types": [
+          "array",
+          "string"
+        ],
+        "occurrences": 354,
+        "percentage": 667.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.pci",
+        "types": [
+          "boolean",
+          "string"
+        ],
+        "occurrences": 253,
+        "percentage": 477.36
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 221,
+        "percentage": 416.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.logicalname",
+        "types": [
+          "array",
+          "string"
+        ],
+        "occurrences": 181,
+        "percentage": 341.51
+      },
+      {
+        "field": "hardware.data.hardware.data.children.logicalname",
+        "types": [
+          "array",
+          "string"
+        ],
+        "occurrences": 171,
+        "percentage": 322.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 98,
+        "percentage": 184.91
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 89,
+        "percentage": 167.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.logicalname",
+        "types": [
+          "array",
+          "string"
+        ],
+        "occurrences": 88,
+        "percentage": 166.04
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 52,
+        "percentage": 98.11
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.fb",
+        "types": [
+          "boolean",
+          "string"
+        ],
+        "occurrences": 41,
+        "percentage": 77.36
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.fb",
+        "types": [
+          "boolean",
+          "string"
+        ],
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.logicalname",
+        "types": [
+          "array",
+          "string"
+        ],
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      }
+    ],
+    "numeric_as_string": [
+      {
+        "field": "hardware.data.hardware.data.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 7515,
+        "percentage": 14179.25
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 7362,
+        "percentage": 13890.57
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.latency",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 6415,
+        "percentage": 12103.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 2749,
+        "percentage": 5186.79
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 1838,
+        "percentage": 3467.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.latency",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 1568,
+        "percentage": 2958.49
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 779,
+        "percentage": 1469.81
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 480,
+        "percentage": 905.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.latency",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 397,
+        "percentage": 749.06
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.cores",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 357,
+        "percentage": 673.58
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.enabledcores",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 357,
+        "percentage": 673.58
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.microcode",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 357,
+        "percentage": 673.58
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.threads",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 357,
+        "percentage": 673.58
+      },
+      {
+        "field": "hardware.data.hardware.data.children.physid",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 288,
+        "percentage": 543.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 221,
+        "percentage": 416.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.level",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 99,
+        "percentage": 186.79
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.physid",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 98,
+        "percentage": 184.91
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 89,
+        "percentage": 167.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.level",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 84,
+        "percentage": 158.49
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.ansiversion",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 66,
+        "percentage": 124.53
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 52,
+        "percentage": 98.11
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.logicalsectorsize",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 47,
+        "percentage": 88.68
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.sectorsize",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 47,
+        "percentage": 88.68
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.depth",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 41,
+        "percentage": 77.36
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.depth",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.logicalsectorsize",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.sectorsize",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.FATs",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.FATs",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.xres",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.yres",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.xres",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.yres",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.ansiversion",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.latency",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.depth",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.maxlatency",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.mingnt",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.physid",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.depth",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.xres",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.yres",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.ansiversion",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.logicalsectorsize",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.sectorsize",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.version",
+        "types": [
+          "string",
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.maxlatency",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.mingnt",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.FATs",
+        "types": [
+          "string(numeric)"
+        ],
+        "occurrences": 3,
+        "percentage": 5.66
+      }
+    ],
+    "boolean_as_string": [
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.broadcast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 270,
+        "percentage": 509.43
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.link",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 270,
+        "percentage": 509.43
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.multicast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 270,
+        "percentage": 509.43
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.broadcast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 166,
+        "percentage": 313.21
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.link",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 166,
+        "percentage": 313.21
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.multicast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 166,
+        "percentage": 313.21
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.slave",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 70,
+        "percentage": 132.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.slave",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.broadcast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.link",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.multicast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.configuration.broadcast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 1,
+        "percentage": 1.89
+      },
+      {
+        "field": "hardware.data.hardware.data.children.configuration.link",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 1,
+        "percentage": 1.89
+      },
+      {
+        "field": "hardware.data.hardware.data.children.configuration.multicast",
+        "types": [
+          "string(boolean)"
+        ],
+        "occurrences": 1,
+        "percentage": 1.89
+      }
+    ],
+    "missing_in_some_files": [
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.logicalsectorsize",
+        "occurrences": 47,
+        "percentage": 88.68
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.sectorsize",
+        "occurrences": 47,
+        "percentage": 88.68
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.filesystem",
+        "occurrences": 46,
+        "percentage": 86.79
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.label",
+        "occurrences": 46,
+        "percentage": 86.79
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.initialized",
+        "occurrences": 46,
+        "percentage": 86.79
+      },
+      {
+        "field": "hardware.data.hardware.data.children.capabilities.i8042",
+        "occurrences": 45,
+        "percentage": 84.91
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.intel_ppin",
+        "occurrences": 44,
+        "percentage": 83.02
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cpufreq",
+        "occurrences": 41,
+        "percentage": 77.36
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.depth",
+        "occurrences": 41,
+        "percentage": 77.36
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.fb",
+        "occurrences": 41,
+        "percentage": 77.36
+      },
+      {
+        "field": "hardware.data.hardware.data.serial",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.configuration.chassis",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.pnp",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.upgrade",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.shadowing",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cdboot",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.bootselect",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.edd",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int13floppy360",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int13floppy1200",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int13floppy720",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int9keyboard",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int14serial",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int10video",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.usb",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.biosbootspecification",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.netboot",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.hwp",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.hwp_act_window",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.hwp_pkg_req",
+        "occurrences": 38,
+        "percentage": 71.7
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.depth",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.fb",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.mpx",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.mount_fstype",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.mount_options",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.state",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.slave",
+        "occurrences": 36,
+        "percentage": 67.92
+      },
+      {
+        "field": "hardware.data.hardware.data.children.version",
+        "occurrences": 35,
+        "percentage": 66.04
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.product",
+        "occurrences": 35,
+        "percentage": 66.04
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.connector",
+        "occurrences": 34,
+        "percentage": 64.15
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.maxlength",
+        "occurrences": 34,
+        "percentage": 64.15
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.module",
+        "occurrences": 34,
+        "percentage": 64.15
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.write-back",
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.sata",
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.ahci_1_0",
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.logicalsectorsize",
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.sectorsize",
+        "occurrences": 33,
+        "percentage": 62.26
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.units",
+        "occurrences": 30,
+        "percentage": 56.6
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.guid",
+        "occurrences": 29,
+        "percentage": 54.72
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.gpt-1_00",
+        "occurrences": 29,
+        "percentage": 54.72
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.partitioned",
+        "occurrences": 29,
+        "percentage": 54.72
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.partitioned:gpt",
+        "occurrences": 29,
+        "percentage": 54.72
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.nofs",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.FATs",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.boot",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.fat",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.created",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.lastmountpoint",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.modified",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.mounted",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.journaled",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.extended_attributes",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.large_files",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.huge_files",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.dir_nlink",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.recover",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.64bit",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.extents",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.ext4",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.ext2",
+        "occurrences": 27,
+        "percentage": 50.94
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children",
+        "occurrences": 26,
+        "percentage": 49.06
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.xhci",
+        "occurrences": 24,
+        "percentage": 45.28
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.40000bx-fd",
+        "occurrences": 24,
+        "percentage": 45.28
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.100000bx-fd",
+        "occurrences": 24,
+        "percentage": 45.28
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.xhci",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.guid",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.gpt-1_00",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.partitioned",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.partitioned:gpt",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.nofs",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.FATs",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.boot",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.fat",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.created",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.lastmountpoint",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.modified",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.mounted",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.journaled",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.extended_attributes",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.large_files",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.huge_files",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.dir_nlink",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.recover",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.64bit",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.extents",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.ext4",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.ext2",
+        "occurrences": 23,
+        "percentage": 43.4
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.ibpb_exit_to_user",
+        "occurrences": 22,
+        "percentage": 41.51
+      },
+      {
+        "field": "hardware.data.hardware.data.version",
+        "occurrences": 21,
+        "percentage": 39.62
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.resolution",
+        "occurrences": 21,
+        "percentage": 39.62
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.vga_controller",
+        "occurrences": 21,
+        "percentage": 39.62
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.nqn",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.state",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.nvme",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.nvm_express",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.isa",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int13floppytoshiba",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.mode",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.visual",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.xres",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.yres",
+        "occurrences": 20,
+        "percentage": 37.74
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.split_lock_detect",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.tme",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.pconfig",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.wwid",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.dev",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.mode",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.visual",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.xres",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.yres",
+        "occurrences": 19,
+        "percentage": 35.85
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.escd",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int5printscreen",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.int17printer",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.io_x_-apic",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.autonegotiation",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.broadcast",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.driverversion",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.link",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.multicast",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.ethernet",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.physical",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.scsi",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.ansiversion",
+        "occurrences": 18,
+        "percentage": 33.96
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.resolution",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.pci",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.normal_decode",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.width",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.clock",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.latency",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.bus_master",
+        "occurrences": 17,
+        "percentage": 32.08
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.avx512_bf16",
+        "occurrences": 16,
+        "percentage": 30.19
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.smbios-3_3_0",
+        "occurrences": 16,
+        "percentage": 30.19
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.dmi-3_3_0",
+        "occurrences": 16,
+        "percentage": 30.19
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.smbios-2_8",
+        "occurrences": 15,
+        "percentage": 28.3
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.dmi-2_8",
+        "occurrences": 15,
+        "percentage": 28.3
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.ehci",
+        "occurrences": 15,
+        "percentage": 28.3
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.depth",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.maxlatency",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.mingnt",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.resolution",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.pm",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.vga_controller",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.cap_list",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.rom",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.fb",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.virtualmachine",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.smbios-3_2_1",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.dmi-3_2_1",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.sas",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.15000rpm",
+        "occurrences": 14,
+        "percentage": 26.42
+      },
+      {
+        "field": "hardware.data.hardware.data.children.capabilities.usb",
+        "occurrences": 13,
+        "percentage": 24.53
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.id",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.class",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.claimed",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.handle",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.description",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.physid",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.businfo",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.logicalname",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.dev",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.serial",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.name",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.disabled",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.invpcid_single",
+        "occurrences": 12,
+        "percentage": 22.64
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cat_l2",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cdp_l2",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.avx_vnni",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.hfi",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.waitpkg",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.bus_lock_detect",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cldemote",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.movdiri",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.movdir64b",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.enqcmd",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.serialize",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.tsxldtrk",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.arch_lbr",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.ibt",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.avx512_fp16",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.raid",
+        "occurrences": 10,
+        "percentage": 18.87
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.logicalname",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.dev",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.depth",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.mode",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.visual",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.xres",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.configuration.yres",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.fb",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.xhci",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.vendor",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capacity",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.emulated",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.removable",
+        "occurrences": 9,
+        "percentage": 16.98
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.tp",
+        "occurrences": 8,
+        "percentage": 15.09
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.10bt",
+        "occurrences": 8,
+        "percentage": 15.09
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.10bt-fd",
+        "occurrences": 8,
+        "percentage": 15.09
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.100bt",
+        "occurrences": 8,
+        "percentage": 15.09
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.100bt-fd",
+        "occurrences": 8,
+        "percentage": 15.09
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.status",
+        "occurrences": 7,
+        "percentage": 13.21
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.audio",
+        "occurrences": 7,
+        "percentage": 13.21
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.dvd",
+        "occurrences": 7,
+        "percentage": 13.21
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.vga_controller",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.product",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.units",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.ansiversion",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.logicalsectorsize",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.sectorsize",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.5400rpm",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.version",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.size",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.filesystem",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.label",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.initialized",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.mount_fstype",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.mount_options",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.state",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.mmxext",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.fxsr_opt",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.amd_lbr_v2",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.extd_apicid",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.rapl",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cmp_legacy",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.svm",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.extapic",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cr8_legacy",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.sse4a",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.misalignsse",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.osvw",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.ibs",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.skinit",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.wdt",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.tce",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.topoext",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.perfctr_core",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.perfctr_nb",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.bpext",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.perfctr_llc",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.mwaitx",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cpb",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.hw_pstate",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.perfmon_v2",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.vmmcall",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.clzero",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.irperf",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.xsaveerptr",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.rdpru",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.amd_ppin",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.cppc",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.npt",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.lbrv",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.svm_lock",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.nrip_save",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.tsc_scale",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.vmcb_clean",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.flushbyasid",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.decodeassists",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.pausefilter",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.pfthreshold",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.avic",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.v_vmsave_vmload",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.vgif",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.x2avic",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.v_spec_ctrl",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.overflow_recov",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.succor",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.smca",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.sata",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.ahci_1_0",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.slot",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.maxlatency",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.mingnt",
+        "occurrences": 6,
+        "percentage": 11.32
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.raid",
+        "occurrences": 5,
+        "percentage": 9.43
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.smbios-3_4_0",
+        "occurrences": 4,
+        "percentage": 7.55
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.dmi-3_4_0",
+        "occurrences": 4,
+        "percentage": 7.55
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.100000bx-fd",
+        "occurrences": 4,
+        "percentage": 7.55
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.smbios-3_2_0",
+        "occurrences": 4,
+        "percentage": 7.55
+      },
+      {
+        "field": "hardware.data.hardware.data.capabilities.dmi-3_2_0",
+        "occurrences": 4,
+        "percentage": 7.55
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.capabilities.ehci",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.uhci",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.configuration.guid",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.gpt-1_00",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.partitioned",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.partitioned:gpt",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.nofs",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.FATs",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.boot",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.fat",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.created",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.lastmountpoint",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.modified",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.mounted",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.journaled",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.extended_attributes",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.large_files",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.huge_files",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.dir_nlink",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.recover",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.64bit",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.extents",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.ext4",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.ext2",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.capabilities.lvm2",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.lvm2",
+        "occurrences": 3,
+        "percentage": 5.66
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.configuration.ip",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.debug_swap",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.nqn",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.configuration.state",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.nvme",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.capabilities.nvm_express",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.children.children.children.configuration.wwid",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.amx_bf16",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.amx_tile",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.amx_int8",
+        "occurrences": 2,
+        "percentage": 3.77
+      },
+      {
+        "field": "hardware.data.hardware.data.children.children.capabilities.hwp_epp",
+        "occurrences": 2,
+        "percentage": 3.77
+      }
+    ],
+    "always_null": []
+  },
+  "field_types": {
+    "hardware.data.hardware": [
+      "object"
+    ],
+    "hardware.data.hardware.node": [
+      "string"
+    ],
+    "hardware.data.hardware.data": [
+      "object"
+    ],
+    "hardware.data.hardware.data.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.width": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.configuration.boot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.configuration.chassis": [
+      "string"
+    ],
+    "hardware.data.hardware.data.configuration.family": [
+      "string"
+    ],
+    "hardware.data.hardware.data.configuration.sku": [
+      "string"
+    ],
+    "hardware.data.hardware.data.configuration.uuid": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.capabilities.smbios-3_4_0": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.dmi-3_4_0": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.smp": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.vsyscall32": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.physid": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.physid": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.version": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.date": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.units": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.size": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pci": [
+      "string",
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pnp": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.upgrade": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.shadowing": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.escd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cdboot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bootselect": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.edd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int13floppy360": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int13floppy1200": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int13floppy720": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int5printscreen": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int9keyboard": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int14serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int17printer": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int10video": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.acpi": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.usb": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.biosbootspecification": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.netboot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.uefi": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.slot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.errordetection": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ecc": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.physid": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.slot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.units": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.size": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.width": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.clock": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.level": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.synchronous": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.internal": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.write-back": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.unified": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.varies": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.width": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.clock": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.cores": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.enabledcores": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.microcode": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.threads": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.lm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fpu": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fpu_exception": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.wp": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vme": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.de": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pse": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tsc": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.msr": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pae": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mce": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cx8": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.apic": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sep": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mtrr": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pge": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mca": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cmov": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pat": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pse36": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.clflush": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.dts": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mmx": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fxsr": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sse": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sse2": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ss": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ht": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pbe": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.syscall": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.nx": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pdpe1gb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rdtscp": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.x86-64": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.constant_tsc": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.art": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.arch_perfmon": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pebs": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bts": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rep_good": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.nopl": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xtopology": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.nonstop_tsc": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cpuid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.aperfmperf": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tsc_known_freq": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pni": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pclmulqdq": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.dtes64": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.monitor": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ds_cpl": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vmx": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.smx": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.est": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tm2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ssse3": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sdbg": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fma": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cx16": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xtpr": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pdcm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pcid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.dca": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sse4_1": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sse4_2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.x2apic": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.movbe": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.popcnt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tsc_deadline_timer": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.aes": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xsave": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.f16c": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rdrand": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.lahf_lm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.abm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.3dnowprefetch": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cpuid_fault": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.epb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cat_l3": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cat_l2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cdp_l3": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cdp_l2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ssbd": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mba": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ibrs": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ibpb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.stibp": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ibrs_enhanced": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tpr_shadow": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.flexpriority": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ept": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vpid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ept_ad": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fsgsbase": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tsc_adjust": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bmi1": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.smep": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bmi2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.erms": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.invpcid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cqm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rdt_a": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512f": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512dq": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rdseed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.adx": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.smap": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512ifma": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.clflushopt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.clwb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.intel_pt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512cd": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sha_ni": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512bw": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512vl": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xsaveopt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xsavec": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xgetbv1": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xsaves": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cqm_llc": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cqm_occup_llc": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cqm_mbm_total": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cqm_mbm_local": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.split_lock_detect": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx_vnni": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512_bf16": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.wbnoinvd": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.dtherm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ida": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.arat": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pln": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pts": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hwp": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hwp_act_window": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hwp_pkg_req": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hfi": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vnmi": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512vbmi": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.umip": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pku": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ospke": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.waitpkg": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512_vbmi2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.gfni": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vaes": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vpclmulqdq": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512_vnni": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512_bitalg": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tme": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512_vpopcntdq": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.la57": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rdpid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bus_lock_detect": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cldemote": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.movdiri": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.movdir64b": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.enqcmd": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fsrm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.md_clear": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.serialize": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tsxldtrk": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pconfig": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.arch_lbr": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ibt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avx512_fp16": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.flush_l1d": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.arch_capabilities": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cpufreq": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.latency": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pciexpress": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cap_list": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.driver": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.msi": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bus_master": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.logicalname": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.dev": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.depth": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.mode": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.visual": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.xres": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.configuration.yres": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.normal_decode": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.logicalname": [
+      "string",
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.version": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.driver": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.latency": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.nqn": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.state": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.nvme": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.pm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.msi": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.pciexpress": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.msix": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.nvm_express": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.bus_master": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.cap_list": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.physid": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.logicalname": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.units": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.size": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.guid": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.logicalsectorsize": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.sectorsize": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.wwid": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.gpt-1_00": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.partitioned": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.partitioned:gpt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.physid": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.logicalname": [
+      "string",
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.dev": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.name": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.nofs": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.version": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.size": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.FATs": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.filesystem": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.label": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.boot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.fat": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.initialized": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.logicalname[]": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.created": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.lastmountpoint": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.modified": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.mount_fstype": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.mount_options": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.mounted": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.state": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.journaled": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.extended_attributes": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.large_files": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.huge_files": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.dir_nlink": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.recover": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.64bit": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.extents": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.ext4": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.ext2": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.depth": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.resolution": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.vga_controller": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.rom": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.fb": [
+      "string",
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.ehci": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xhci": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.isa": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.driver": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.pnp": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.autonegotiation": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.broadcast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.driverversion": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.firmware": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.link": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.multicast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.vpd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.ethernet": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.physical": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.25000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.100000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.autonegotiation": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.port": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.tp": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.10bt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.10bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.100bt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.100bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.1000bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.duplex": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.speed": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.ip": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.msix": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.units": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.logicalname": [
+      "string",
+      "array"
+    ],
+    "hardware.data.hardware.data.children.logicalname[]": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.capabilities.platform": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.capabilities.isa": [
+      "string"
+    ],
+    "hardware.data.hardware.error": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.smbios-3_2_0": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.dmi-3_2_0": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.version": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.isa": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.int13floppytoshiba": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.intel_ppin": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mpx": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.level": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.internal": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.write-back": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.unified": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.io_x_-apic": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.sata": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.ahci_1_0": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.xhci": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.pci": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.normal_decode": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.version": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.width": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.clock": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.pci": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.msi": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.pm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.pciexpress": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.normal_decode": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.bus_master": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.cap_list": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.width": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.clock": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.depth": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.driver": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.latency": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.maxlatency": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.mingnt": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.resolution": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.pm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.vga_controller": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.bus_master": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.cap_list": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.rom": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.fb": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.raid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.dev": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.ansiversion": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.connector": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.maxlength": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.module": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.slave": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.wavelength": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.fibre": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.1000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.10000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.io_x_-apic": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.version": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.smbios-2_8": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.dmi-2_8": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hypervisor": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.virtualmachine": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.uhci": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.depth": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.latency": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.mode": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.visual": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.xres": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.yres": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.msix": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.rom": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.fb": [
+      "string",
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.autonegotiation": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.broadcast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.driverversion": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.link": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.multicast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.ethernet": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.physical": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.scsi": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.product": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.physid": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.logicalname": [
+      "string",
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.dev": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.version": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.units": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.size": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.ansiversion": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.guid": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.logicalsectorsize": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.sectorsize": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.5400rpm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.gpt-1_00": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.partitioned": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.partitioned:gpt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children": [
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.id": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.class": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.claimed": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.handle": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.description": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.vendor": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.physid": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.logicalname": [
+      "string",
+      "array"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.dev": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.serial": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.name": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.nofs": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.version": [
+      "string(numeric)",
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.size": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.FATs": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.filesystem": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.label": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.boot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.fat": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.initialized": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.logicalname[]": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.created": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.lastmountpoint": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.modified": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.mount_fstype": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.mount_options": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.mounted": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.configuration.state": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.journaled": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.extended_attributes": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.large_files": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.huge_files": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.dir_nlink": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.recover": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.64bit": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.extents": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.ext4": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.children.capabilities.ext2": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.capabilities.i8042": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.xhci": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.units": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.guid": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.logicalsectorsize": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.sectorsize": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.gpt-1_00": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.partitioned": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.partitioned:gpt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.name": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.nofs": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.FATs": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.filesystem": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.label": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.boot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.fat": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.initialized": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.logicalname[]": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.created": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.lastmountpoint": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.modified": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.mount_fstype": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.mount_options": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.mounted": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.configuration.state": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.journaled": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.extended_attributes": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.large_files": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.huge_files": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.dir_nlink": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.recover": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.64bit": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.extents": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.ext4": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.children.capabilities.ext2": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.capabilities.usb": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.smbios-3_3_0": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.dmi-3_3_0": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mmxext": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.fxsr_opt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.amd_lbr_v2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.extd_apicid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rapl": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cmp_legacy": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.svm": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.extapic": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cr8_legacy": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.sse4a": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.misalignsse": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.osvw": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ibs": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.skinit": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.wdt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tce": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.topoext": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.perfctr_core": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.perfctr_nb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.bpext": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.perfctr_llc": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.mwaitx": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cpb": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hw_pstate": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.perfmon_v2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vmmcall": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.clzero": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.irperf": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.xsaveerptr": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.rdpru": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.amd_ppin": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.cppc": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.npt": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.lbrv": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.svm_lock": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.nrip_save": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.tsc_scale": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vmcb_clean": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.flushbyasid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.decodeassists": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pausefilter": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.pfthreshold": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.avic": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.v_vmsave_vmload": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.vgif": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.x2avic": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.v_spec_ctrl": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.overflow_recov": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.succor": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.smca": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.debug_swap": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.ibpb_exit_to_user": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.ht": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.raid": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.ansiversion": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capacity": [
+      "integer"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.autonegotiation": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.broadcast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.driverversion": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.duplex": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.firmware": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.link": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.multicast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.port": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.slave": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.speed": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.vpd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.ethernet": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.physical": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.fibre": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.1000bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.1000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.10000bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.10000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.25000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.40000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.100000bx-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.autonegotiation": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.connector": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.maxlength": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.module": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.tp": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.10bt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.10bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.100bt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.100bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.1000bt": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.sata": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.ahci_1_0": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.dev": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.mode": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.visual": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.xres": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.configuration.yres": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.nqn": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.state": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.nvme": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.nvm_express": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.configuration.wwid": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.children.capabilities.lvm2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.disabled": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.amx_bf16": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.amx_tile": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.amx_int8": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.10000bt-fd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.emulated": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.status": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.removable": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.audio": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.dvd": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.slot": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.maxlatency": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.mingnt": [
+      "string(numeric)"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.configuration.resolution": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.vga_controller": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.lvm2": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.logicalname[]": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.hwp_epp": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.disabled": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.capabilities.smbios-3_2_1": [
+      "string"
+    ],
+    "hardware.data.hardware.data.capabilities.dmi-3_2_1": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.ehci": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.children.capabilities.sas": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.15000rpm": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.children.capabilities.invpcid_single": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.disabled": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.children.children.children.capabilities.sas": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.businfo": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration": [
+      "object"
+    ],
+    "hardware.data.hardware.data.children.configuration.autonegotiation": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration.broadcast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.configuration.driver": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration.driverversion": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration.duplex": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration.firmware": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration.ip": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.configuration.link": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.configuration.multicast": [
+      "string(boolean)"
+    ],
+    "hardware.data.hardware.data.children.configuration.port": [
+      "string"
+    ],
+    "hardware.data.hardware.data.children.capabilities.ethernet": [
+      "boolean"
+    ],
+    "hardware.data.hardware.data.children.capabilities.physical": [
+      "string"
+    ]
+  }
+}

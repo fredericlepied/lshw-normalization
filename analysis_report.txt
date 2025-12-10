@@ -1,0 +1,312 @@
+================================================================================
+LSHW JSON Type Analysis Report
+================================================================================
+
+Total files analyzed: 53
+Total unique field paths: 739
+
+
+================================================================================
+TYPE INCONSISTENCIES (HIGH PRIORITY)
+================================================================================
+Found 19 fields with inconsistent types:
+
+  Field: hardware.data.hardware.data.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 7515 (14179.25%)
+
+  Field: hardware.data.hardware.data.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 7362 (13890.57%)
+
+  Field: hardware.data.hardware.data.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 2749 (5186.79%)
+
+  Field: hardware.data.hardware.data.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 1838 (3467.92%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 779 (1469.81%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 480 (905.66%)
+
+  Field: hardware.data.hardware.data.children.children.children.logicalname
+    Types found: array, string
+    Occurrences: 354 (667.92%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.pci
+    Types found: boolean, string
+    Occurrences: 253 (477.36%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 221 (416.98%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.logicalname
+    Types found: array, string
+    Occurrences: 181 (341.51%)
+
+  Field: hardware.data.hardware.data.children.logicalname
+    Types found: array, string
+    Occurrences: 171 (322.64%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 98 (184.91%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 89 (167.92%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.logicalname
+    Types found: array, string
+    Occurrences: 88 (166.04%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 52 (98.11%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.capabilities.fb
+    Types found: boolean, string
+    Occurrences: 41 (77.36%)
+
+  Field: hardware.data.hardware.data.children.children.children.capabilities.fb
+    Types found: boolean, string
+    Occurrences: 36 (67.92%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.children.logicalname
+    Types found: array, string
+    Occurrences: 12 (22.64%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 6 (11.32%)
+
+
+================================================================================
+NUMERIC VALUES AS STRINGS (MEDIUM PRIORITY)
+================================================================================
+Found 49 fields with numeric strings:
+
+  Field: hardware.data.hardware.data.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 7515 (14179.25%)
+
+  Field: hardware.data.hardware.data.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 7362 (13890.57%)
+
+  Field: hardware.data.hardware.data.children.children.configuration.latency
+    Types found: string(numeric)
+    Occurrences: 6415 (12103.77%)
+
+  Field: hardware.data.hardware.data.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 2749 (5186.79%)
+
+  Field: hardware.data.hardware.data.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 1838 (3467.92%)
+
+  Field: hardware.data.hardware.data.children.children.children.configuration.latency
+    Types found: string(numeric)
+    Occurrences: 1568 (2958.49%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 779 (1469.81%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 480 (905.66%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.latency
+    Types found: string(numeric)
+    Occurrences: 397 (749.06%)
+
+  Field: hardware.data.hardware.data.children.children.configuration.cores
+    Types found: string(numeric)
+    Occurrences: 357 (673.58%)
+
+  Field: hardware.data.hardware.data.children.children.configuration.enabledcores
+    Types found: string(numeric)
+    Occurrences: 357 (673.58%)
+
+  Field: hardware.data.hardware.data.children.children.configuration.microcode
+    Types found: string(numeric)
+    Occurrences: 357 (673.58%)
+
+  Field: hardware.data.hardware.data.children.children.configuration.threads
+    Types found: string(numeric)
+    Occurrences: 357 (673.58%)
+
+  Field: hardware.data.hardware.data.children.physid
+    Types found: string(numeric)
+    Occurrences: 288 (543.4%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 221 (416.98%)
+
+  Field: hardware.data.hardware.data.children.children.configuration.level
+    Types found: string(numeric)
+    Occurrences: 99 (186.79%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.physid
+    Types found: string, string(numeric)
+    Occurrences: 98 (184.91%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.version
+    Types found: string, string(numeric)
+    Occurrences: 89 (167.92%)
+
+  Field: hardware.data.hardware.data.children.children.children.configuration.level
+    Types found: string(numeric)
+    Occurrences: 84 (158.49%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.ansiversion
+    Types found: string(numeric)
+    Occurrences: 66 (124.53%)
+
+
+================================================================================
+BOOLEAN VALUES AS STRINGS (MEDIUM PRIORITY)
+================================================================================
+Found 14 fields with boolean strings:
+
+  Field: hardware.data.hardware.data.children.children.children.configuration.broadcast
+    Types found: string(boolean)
+    Occurrences: 270 (509.43%)
+
+  Field: hardware.data.hardware.data.children.children.children.configuration.link
+    Types found: string(boolean)
+    Occurrences: 270 (509.43%)
+
+  Field: hardware.data.hardware.data.children.children.children.configuration.multicast
+    Types found: string(boolean)
+    Occurrences: 270 (509.43%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.broadcast
+    Types found: string(boolean)
+    Occurrences: 166 (313.21%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.link
+    Types found: string(boolean)
+    Occurrences: 166 (313.21%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.multicast
+    Types found: string(boolean)
+    Occurrences: 166 (313.21%)
+
+  Field: hardware.data.hardware.data.children.children.children.configuration.slave
+    Types found: string(boolean)
+    Occurrences: 70 (132.08%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.slave
+    Types found: string(boolean)
+    Occurrences: 36 (67.92%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.configuration.broadcast
+    Types found: string(boolean)
+    Occurrences: 18 (33.96%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.configuration.link
+    Types found: string(boolean)
+    Occurrences: 18 (33.96%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.configuration.multicast
+    Types found: string(boolean)
+    Occurrences: 18 (33.96%)
+
+  Field: hardware.data.hardware.data.children.configuration.broadcast
+    Types found: string(boolean)
+    Occurrences: 1 (1.89%)
+
+  Field: hardware.data.hardware.data.children.configuration.link
+    Types found: string(boolean)
+    Occurrences: 1 (1.89%)
+
+  Field: hardware.data.hardware.data.children.configuration.multicast
+    Types found: string(boolean)
+    Occurrences: 1 (1.89%)
+
+
+================================================================================
+FIELDS MISSING IN SOME FILES (LOW PRIORITY)
+================================================================================
+Found 327 fields not present in all files:
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.logicalsectorsize
+    Present in: 47/53 files (88.68%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.sectorsize
+    Present in: 47/53 files (88.68%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.configuration.filesystem
+    Present in: 46/53 files (86.79%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.configuration.label
+    Present in: 46/53 files (86.79%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.children.children.capabilities.initialized
+    Present in: 46/53 files (86.79%)
+
+  Field: hardware.data.hardware.data.children.capabilities.i8042
+    Present in: 45/53 files (84.91%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.intel_ppin
+    Present in: 44/53 files (83.02%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.cpufreq
+    Present in: 41/53 files (77.36%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.configuration.depth
+    Present in: 41/53 files (77.36%)
+
+  Field: hardware.data.hardware.data.children.children.children.children.capabilities.fb
+    Present in: 41/53 files (77.36%)
+
+  Field: hardware.data.hardware.data.serial
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.configuration.chassis
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.pnp
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.upgrade
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.shadowing
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.cdboot
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.bootselect
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.edd
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.int13floppy360
+    Present in: 38/53 files (71.7%)
+
+  Field: hardware.data.hardware.data.children.children.capabilities.int13floppy1200
+    Present in: 38/53 files (71.7%)
+
+
+================================================================================
+SUMMARY
+================================================================================
+Type inconsistencies: 19
+Numeric as string: 49
+Boolean as string: 14
+Missing in some files: 327
+Always null: 0
